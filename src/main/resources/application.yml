@@ -3,14 +3,6 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/nomis
+    url: jdbc:postgresql://localhost:5432/dbname
     username: postgres
-    password: admin
-  hikari:
-    data-source-properties:
-      useConfigs: maxPerformance
-      data-source-properties:
-        rewriteBatchedStatements: true
-      connectionTimeout: 240000
-      idleTimeout: 600000
-      maxLifetime: 1800000
+    password: password
